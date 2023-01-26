@@ -1,0 +1,25 @@
+
+.container {
+    /* display: flex;
+    flex-direction: column; */
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.row {
+    display: flex;
+    flex: auto;
+}
+
+.tile {
+    flex: 1;
+    border: 1px solid black;
+}
+
+.color {
+    background: cornflowerblue;
+}
