@@ -8,6 +8,13 @@
 	justify-content: flex-start;
 	align-items: stretch;
 	align-content: stretch;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    
 }
 
 .row {
